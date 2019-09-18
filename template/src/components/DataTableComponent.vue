@@ -6,10 +6,10 @@
     </div>
     <table class="tablelist">
       <tr>
-        <th v-for="(header, index) in headers" v-bind:key="index">{{ $t(header) }}</th>
+        <th v-for="(header, index) in headers" v-bind:key="index">{{ header }}</th>
       </tr>
       <tr v-if="data.length <= 0">
-        <td :colspan="headers.length">{{ $t('hasNoData') }}</td>
+        <td :colspan="headers.length">hasNoData</td>
       </tr>
       <tr v-for="(rowData, index) in data" v-bind:key="index">
         <td v-for="(colData, index2) in rowData" v-bind:key="index2">{{colData}}</td>

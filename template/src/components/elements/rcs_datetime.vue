@@ -4,7 +4,7 @@
       {{ label }}:
       <datepicker
         v-model="inputData"
-        :placeholder="$t(label)"
+        :placeholder="label"
         :format="format"
         input-class="rcs-datepicker"
         :minimumView="minimumView"

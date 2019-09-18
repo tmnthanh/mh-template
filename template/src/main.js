@@ -4,7 +4,8 @@
 {{/if_eq}}
 import Vue from 'vue'
 import App from './App'
-import i18n from '@/plugins/i18n'
+import i18n from './plugins/i18n'
+
 {{#router}}
 import router from './router'
 {{/router}}

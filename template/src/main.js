@@ -4,6 +4,7 @@
 {{/if_eq}}
 import Vue from 'vue'
 import App from './App'
+import i18n from '@/plugins/i18n'
 {{#router}}
 import router from './router'
 {{/router}}
@@ -13,6 +14,7 @@ Vue.config.productionTip = false
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
+  i18n,
   {{#router}}
   router,
   {{/router}}

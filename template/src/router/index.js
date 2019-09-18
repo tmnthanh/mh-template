@@ -4,12 +4,28 @@ import HelloWorld from '@/components/HelloWorld'
 
 Vue.use(Router)
 
+//Route configuration
+import Home from "@/pages/Homepage.vue";
+import DataFilterPage from "@/pages/DataFilterPage.vue";
+import DemoPage from "@/pages/DemoPage.vue";
+
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
-    }
+  mode: "history",
+  routes: [{
+    path: "/",
+    component: Home
+  },
+  {
+    path: "/home",
+    component: Home
+  },
+  {
+    path: "/datafilter",
+    component: DataFilterPage
+  },
+  {
+    path: "/demo",
+    component: DemoPage
+  }
   ]
 })

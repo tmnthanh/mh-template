@@ -1,6 +1,6 @@
 <template>
   <div class="homepage">
-    <h1>{{this.$i18n.t('homepage')}}</h1>
+    <h1>ホームページ</h1>
   </div>
 </template>
 

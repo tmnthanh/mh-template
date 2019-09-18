@@ -28,12 +28,6 @@
       </tr>
       <tr>
         <td>
-          <RCSAutocomplete
-            label="province"
-            :data="provinceDatas"
-            field="name"
-            v-model="searchCondition.province"
-          />
         </td>
       </tr>
       <tr>
@@ -61,7 +55,6 @@ import RCSInput from "@/components/elements/rcs_input.vue";
 import RCSButton from "@/components/elements/rcs_button.vue";
 import RCSRadio from "@/components/elements/rcs_radio.vue";
 import RCSDatetime from "@/components/elements/rcs_datetime.vue";
-import RCSAutocomplete from "@/components/elements/rcs_autocomplete.vue";
 
 export default {
   name: "LookUpComponent",
@@ -69,8 +62,7 @@ export default {
     RCSInput,
     RCSButton,
     RCSRadio,
-    RCSDatetime,
-    RCSAutocomplete
+    RCSDatetime
   },
   data() {
     return {

@@ -1,5 +1,5 @@
 <template>
- <div></div>
+  <div class="footer">{{$t('footer')}}</div>
 </template>
 
 <script>

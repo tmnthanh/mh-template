@@ -94,7 +94,6 @@ module.exports = {
     },
   },
   filters: {
-    'src/router/**/*': 'router'
   },
   complete: function(data, { chalk }) {
     const green = chalk.green

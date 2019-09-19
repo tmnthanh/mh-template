@@ -5,26 +5,18 @@ Vue.use(Router)
 
 //Route configuration
 import Home from "@/pages/Homepage.vue";
-import DataFilterPage from "@/pages/DataFilterPage.vue";
-import DemoPage from "@/pages/DemoPage.vue";
 
 export default new Router({
   mode: "history",
   routes: [{
     path: "/",
+    name: "home",
     component: Home
   },
   {
     path: "/home",
+    name: "home2",
     component: Home
-  },
-  {
-    path: "/datafilter",
-    component: DataFilterPage
-  },
-  {
-    path: "/demo",
-    component: DemoPage
   }
   ]
 })

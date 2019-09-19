@@ -4,11 +4,11 @@
   "description": "A Vue.js project",
   "author": "CircleCI",
   "build": "runtime",
-  "router": false,
-  "lint": true,
+  "router": yes,
+  "lint": false,
   "lintConfig": "standard",
-  "unit": true,
+  "unit": false,
   "runner": "jest",
-  "e2e": true,
-  "autoInstall": false
+  "e2e": false,
+  "autoInstall": true
 }

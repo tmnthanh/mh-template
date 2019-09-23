@@ -5,10 +5,7 @@
 import Vue from 'vue'
 import App from './App'
 import i18n from './plugins'
-
-{{#router}}
 import router from './router'
-{{/router}}
 
 Vue.config.productionTip = false
 
